@@ -6,8 +6,11 @@ gem 'rails', '3.2.8'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 gem 'sqlite3'
-
-
+gem 'therubyracer'
+gem 'libv8'
+gem 'rmagick'
+gem 'paperclip'
+gem 'mysql2'
 # Gems used only for assets and not required
 # in production environments by default.
 group :assets do
@@ -54,3 +57,7 @@ gem "devise", ">= 2.1.2"
 gem "cancan", ">= 1.6.8"
 gem "rolify", ">= 3.2.0"
 gem "simple_form", ">= 2.0.4"
+gem "quiet_assets", ">= 1.0.1", :group => :development
+gem "better_errors", ">= 0.0.8", :group => :development
+gem "binding_of_caller", ">= 0.6.8", :group => :development
+#gem "therubyracer", ">= 0.11.0", :group => :assets, :platform => :ruby
